@@ -1,6 +1,6 @@
-import desktopHeroImage from '../assets/hero-image.jpg'
-import mobileHeroImage from '../assets/hero-image-sm.jpg'
-import logo from '../assets/logo.svg'
+import desktopHeroImage from "../assets/hero-image.jpg";
+import mobileHeroImage from "../assets/hero-image-sm.jpg";
+import logo from "../assets/logo.svg";
 
 function Hero() {
   return (
@@ -25,10 +25,10 @@ function Hero() {
           width="174"
           height="24"
         />
-        <p className="hero-banner__subtitle">Explore countries, regions, and rankings</p>
+        <p className="text-lg">Explore countries, regions, and rankings</p>
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

@@ -1,12 +1,12 @@
-import Hero from './components/Hero'
-import './App.css'
+import Hero from "./components/Hero";
+import "./App.css";
 
 function App() {
   return (
     <main className="app-shell">
       <Hero />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;

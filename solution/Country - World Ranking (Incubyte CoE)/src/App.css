@@ -1,8 +1,11 @@
+@import "tailwindcss";
+
 .app-shell {
   min-height: 100vh;
-  background:
+  /* background:
     radial-gradient(circle at top, rgba(40, 64, 132, 0.28), transparent 38%),
-    #03040a;
+    #03040a; */
+  background-color: #282b30;
 }
 
 .hero-banner {
@@ -31,8 +34,17 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(3, 4, 10, 0.1) 0%, rgba(3, 4, 10, 0.3) 60%, rgba(3, 4, 10, 0.78) 100%),
-    radial-gradient(circle at center, rgba(10, 16, 36, 0) 0%, rgba(3, 4, 10, 0.4) 100%);
+    linear-gradient(
+      180deg,
+      rgba(3, 4, 10, 0.1) 0%,
+      rgba(3, 4, 10, 0.3) 60%,
+      rgba(3, 4, 10, 0.78) 100%
+    ),
+    radial-gradient(
+      circle at center,
+      rgba(10, 16, 36, 0) 0%,
+      rgba(3, 4, 10, 0.4) 100%
+    );
 }
 
 .hero-banner__content {
